@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Action = (props) => {
 	return (
 		<div>
-			<button disabled={!props.hasOptions} onClick={props.handlePick}>
+			<button className="big-button" disabled={!props.hasOptions} onClick={props.handlePick}>
 				What should i do?
 			</button>
 		</div>
 	);
 };
 
-export default Action
+export default Action;

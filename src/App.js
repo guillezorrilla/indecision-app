@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.scss';
-import './styles/styles.scss'
-import IndecisionApp from './components/IndecisionApp'
+import './styles/styles.scss';
+import 'normalize.css/normalize.css'
+import IndecisionApp from './components/IndecisionApp';
 
 function App() {
   return (
-    <div className="App">
+    <div>
      <IndecisionApp />
     </div>
   );
